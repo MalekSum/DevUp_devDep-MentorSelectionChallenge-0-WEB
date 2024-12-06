@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header1 {
+    margin-bottom: 50px;
+    background-color: #212529;
+    height: 125px;
+    width: 100%;
+    color: #f4f4f4;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    display: grid;
+}
+
+
+
+#souHeader1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+#logoStuff {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    width: 80px;
+    border-radius: 50%;
+    border: 3px solid #f4f4f4;
+}
+
+
+#title {
+    font-size: 40px;
+    margin-left: 15px;
+}
+
+#crdn {
+    font-size: 23px;
+}
+
+main {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#evreything {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    color: gray;
+    font-size: 16px;
+    font-family: 'Georgia', serif;
+}
+
+#c1 {
+    border-radius: 10% 10% 10% 10%;
+    height: auto;
+
+}
+
+#i1 {
+    border-radius: 10% 10% 10% 10%;
+
+    height: 560px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    transition: 0.4s;
+}
+
+#i1:hover {
+    margin-top: -10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+main img {
+    height: 415px;
+    width: 296px;
+    padding-bottom: -50px;
+    border-radius: 3% 3% 0 0;
+}
+
+h5 {
+    color: #f4f4f4;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+
+
+#crdn1 {
+    margin-top: -4px;
+    border-radius: 0 0 3% 3%;
+    background-color: #212529;
+    width: 296px;
+    height: 145px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.whatsapp-btn {
+    background-color: #25d365be;
+    color: white;
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    bottom: 3vh;
+    right: 20px;
+    transition: 0.3s;
+}
+
+.whatsapp-btn:hover {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    font-size: 2.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer1 {
+    margin-top: 60px;
+    background-color: #212529;
+    color: white;
+    font-family: 'Georgia', serif;
+    width: 100%;
+    height: 119px;
+    box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#socIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#socIcon #fb img {
+    height: 24px;
+    width: 15px;
+    margin: 0 10px;
+}
+
+main a i,
+footer a i {
+    margin-top: 6px;
+    color: #f4f4f4;
+    font-size: 1.5rem;
+}
+
+#soufooter p {
+    margin-top: -9px;
+}
+
+@media (max-width: 768px) {
+    #evreything {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    #i1 {
+        height: 440px;
+        margin: 10px;
+    }
+
+    #c1 {
+        width: 200px;
+    }
+
+    main img {
+        height: 300px;
+        width: 200px;
+    }
+
+    #title {
+        font-size: 30px;
+    }
+
+    #logo {
+        width: 60px;
+    }
+
+    #crdn1 {
+        width: 200px;
+        height: 170px;
+        font-size: 12px;
+    }
+
+    h5 {
+        font-size: 17px;
+    }
+
+    #crdn {
+        font-size: 18px;
+    }
+
+    .whatsapp-btn {
+        width: 70px;
+        height: 70px;
+    }
+
+    #pp center {
+        font-size: 1rem;
+    }
+}
+
+
+@media (max-width: 480px) {
+    #evreything {
+        grid-template-columns: 1fr;
+    }
+
+    #header1 {
+        height: 80px;
+    }
+
+    #title {
+        font-size: 12px;
+    }
+
+    #logo {
+        width: 50px;
+    }
+
+    #crdn p {
+        width: 50%;
+    }
+
+    #i1 {
+        height: auto;
+    }
+
+    #c1 {
+        width: 150px;
+        margin: 0 auto;
+        border-radius: 3px 3px 0 0;
+
+    }
+
+    main img {
+        width: 150px;
+        height: 200px;
+        border-radius: 3px 3px 0 0;
+    }
+
+    #crdn1 {
+        width: 130px;
+        height: 145px;
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    h5 {
+        font-size: 15px;
+    }
+
+    .whatsapp-btn {
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+        bottom: 50px;
+    }
+
+    footer {
+        font-size: 14px;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    #socIcon {
+        display: flex;
+        justify-content: center;
+    }
+
+    #socIcon a {
+        margin: 0 10px;
+    }
+
+    #socIcon i {
+        font-size: 18px;
+    }
+}
