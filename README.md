@@ -20,7 +20,7 @@ This repository contains two responsive websites built using HTML and CSS:
 
 ## How to Use
 1. Clone this repository:  
-   `git clone https://github.com/your-username/repository-name.git`
+   `https://github.com/MalekSum/DevUp_devDep-MentorSelectionChallenge-0-WEB`
 2. Navigate to the respective project folder (`book-website/` or `club-website/`).
 3. Open the `index.html` file in your web browser to view the website.
 
